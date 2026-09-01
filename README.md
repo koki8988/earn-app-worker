@@ -112,3 +112,4 @@ npx firebase-tools deploy --only firestore:rules,hosting
   الواجهة تنادي نفس دوال `call('اسم')` بغض النظر عن كون الـ Backend
   Cloud Functions أو Worker.
 - `firestore.rules` يبقى كما هو، ينشر بنفس الطريقة.
+# آخر تحديث: Wed Sep  2 00:32:38 +03 2026
