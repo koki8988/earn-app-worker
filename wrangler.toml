@@ -1,0 +1,10 @@
+name = "earn-app-backend"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# القيم غير السرية فقط هنا. المفاتيح السرية (مفتاح Firestore الخاص، أسرار
+# PayPal، سر postback الإعلانات) تُضبط بأمر منفصل (wrangler secret put) —
+# راجع README لتفاصيل كل سر ومصدره.
+[vars]
+FIREBASE_PROJECT_ID = "earn-money-app-a14a8"
+PAYPAL_MODE = "sandbox"

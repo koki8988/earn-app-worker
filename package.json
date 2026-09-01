@@ -1,0 +1,16 @@
+{
+  "name": "earn-app-backend",
+  "version": "1.0.0",
+  "description": "بديل مجاني (Cloudflare Workers) لـ Firebase Cloud Functions",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "chess.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
